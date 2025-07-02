@@ -14,7 +14,7 @@ export const Projects = () => {
               <h3 className='text-xl font-bold mb-2'> Pomodoro Timer </h3>
               <p className='text-gray-400 mb-4'>Time management app using the pomodoro technique built with Vue.js</p>
               <div className='flex flex-wrap gap-2 mb-4'>
-                {['Vue', 'Vite', 'Tailwind', 'Docker'].map((tech, key) => (
+                {['Vue', 'Vite', 'Tailwind', 'Animation'].map((tech, key) => (
                   <span
                     key={key}
                     className='bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 
@@ -81,12 +81,10 @@ export const Projects = () => {
               transition-all
             '
             >
-              <h3 className='text-xl font-bold mb-2'>E-Commerce Web App</h3>
-              <p className='text-gray-400 mb-4'>
-                Full-stack e-commerce with modern UI, secure payment integration, and customizable product inventory.
-              </p>
+              <h3 className='text-xl font-bold mb-2'>Vue To Do App</h3>
+              <p className='text-gray-400 mb-4'>Simple to do app made with VUE modern and minimalist UI.</p>
               <div className='flex flex-wrap gap-2 mb-4'>
-                {['Next.js', 'TypeScript', 'Stripe', 'PostgreSQL'].map((tech) => (
+                {['Vue', 'Vite', 'Tailwind', 'Animation'].map((tech) => (
                   <span
                     key={tech}
                     className='
@@ -102,7 +100,10 @@ export const Projects = () => {
                 ))}
               </div>
               <div className='flex justify-between items-center'>
-                <a href='#' className='text-blue-400 hover:text-blue-300 transition-colors my-4'>
+                <a
+                  href='https://ramzsanchez.github.io/vue-todo/'
+                  className='text-blue-400 hover:text-blue-300 transition-colors my-4'
+                >
                   View Project →
                 </a>
               </div>
